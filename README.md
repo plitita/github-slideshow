@@ -1,13 +1,48 @@
-# Your GitHub Learning Lab Repository for Introducing GitHub
+# ArtifyCreativeHub
 
-Welcome to **your** repository for your GitHub Learning Lab course. This repository will be used during the different activities that I will be guiding you through. See a word you don't understand? We've included an emoji 📖 next to some key terms. Click on it to see its definition.
+Welcome to the official website for **ArtifyCreativeHub** - your destination for premium digital coloring books, KDP bundles, and activity book bundles!
 
-Oh! I haven't introduced myself...
+## About
 
-I'm the GitHub Learning Lab bot and I'm here to help guide you in your journey to learn and master the various topics covered in this course. I will be using Issue and Pull Request comments to communicate with you. In fact, I already added an issue for you to check out.
+ArtifyCreativeHub specializes in creating high-quality digital products that inspire creativity and bring joy to people of all ages. Our collection includes:
 
-![issue tab](https://lab.github.com/public/images/issue_tab.png)
+- 🎨 **Coloring Books** - Beautiful, intricate designs for all skill levels
+- 📚 **KDP Bundles** - Complete ready-to-publish book bundles for Amazon KDP
+- ✏️ **Activity Book Bundles** - Engaging activity books perfect for kids and adults
 
-I'll meet you over there, can't wait to get started!
+## Visit Our Store
 
-This course is using the :sparkles: open source project [reveal.js](https://github.com/hakimel/reveal.js/). In some cases we’ve made changes to the history so it would behave during class, so head to the original project repo to learn more about the cool people behind this project.
+🛍️ [Shop on Etsy](https://www.etsy.com/shop/artifycreativehub)
+
+## Features
+
+- ⚡ Instant digital downloads
+- 🖨️ High-resolution, print-ready files
+- 💼 Commercial licenses available on select products
+- 🎁 Value-packed bundles
+- 🔄 Regular new releases
+
+## Local Development
+
+This site is built with Jekyll. To run it locally:
+
+```bash
+# Install dependencies
+bundle install
+
+# Run the local server
+bundle exec jekyll serve
+
+# Visit http://localhost:4000
+```
+
+## Technology Stack
+
+- Jekyll (Static Site Generator)
+- GitHub Pages
+- HTML5 & CSS3
+- Responsive Design
+
+## License
+
+© 2024 ArtifyCreativeHub. All rights reserved.
