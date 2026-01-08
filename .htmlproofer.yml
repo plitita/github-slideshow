@@ -1,0 +1,11 @@
+ignore_empty_alt: true
+disable_external: false
+ignore_urls:
+  - https://www.etsy.com/shop/artifycreativehub
+  - https://fonts.googleapis.com
+  - https://fonts.gstatic.com
+  - https://artifycreativehub.github.io/
+check_external_hash: false
+check_internal_hash: true
+only_4xx: true
+http_status_ignore: [403, 999]

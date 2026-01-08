@@ -1,13 +1,129 @@
 ---
-layout: presentation
+layout: default
+title: Home
 ---
 
-{% for post in site.posts reversed %}
-	{% include slide.html %}
-	<div class="page-break"></div>
-{% endfor %}
-{% unless site.simple-slideshow %}
-{% if site.overview %}
-<section id="overview" class="step" {% for attr in site.overview-data %} data-{{attr[0]}}="{{attr[1]}}"{% endfor %}></section>
-{% endif %}
-{% endunless %}
+<section class="hero">
+  <div class="container">
+    <div class="hero-content">
+      <h1 class="hero-title">Welcome to <span class="brand-name">ArtifyCreativeHub</span></h1>
+      <p class="hero-subtitle">Premium Digital Coloring Books, KDP Bundles & Activity Books</p>
+      <p class="hero-description">Discover our curated collection of high-quality digital products designed for creators, educators, and coloring enthusiasts.</p>
+      <div class="hero-buttons">
+        <a href="{{ site.etsy_store }}" target="_blank" class="btn btn-primary">Shop on Etsy</a>
+        <a href="#products" class="btn btn-secondary">Browse Products</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="products" class="products-section">
+  <div class="container">
+    <h2 class="section-title">Our Product Collections</h2>
+    <p class="section-subtitle">High-quality digital downloads ready for instant use</p>
+    
+    <div class="products-grid">
+      <div class="product-card">
+        <div class="product-icon">🎨</div>
+        <h3>Coloring Books</h3>
+        <p>Beautiful, intricate designs for all skill levels. From relaxing mandalas to detailed landscapes, our coloring books offer hours of creative enjoyment.</p>
+        <ul class="product-features">
+          <li>✓ High-resolution printable PDFs</li>
+          <li>✓ Multiple themes and styles</li>
+          <li>✓ Suitable for all ages</li>
+          <li>✓ Instant digital download</li>
+        </ul>
+      </div>
+      
+      <div class="product-card">
+        <div class="product-icon">📚</div>
+        <h3>KDP Bundles</h3>
+        <p>Complete ready-to-publish book bundles for Amazon KDP. Save time with our professionally designed interiors and covers.</p>
+        <ul class="product-features">
+          <li>✓ Print-ready formats</li>
+          <li>✓ Commercial license included</li>
+          <li>✓ Editable templates</li>
+          <li>✓ Multiple niches available</li>
+        </ul>
+      </div>
+      
+      <div class="product-card">
+        <div class="product-icon">✏️</div>
+        <h3>Activity Book Bundles</h3>
+        <p>Engaging activity books perfect for kids and adults. Puzzles, mazes, word searches, and more to spark creativity and learning.</p>
+        <ul class="product-features">
+          <li>✓ Educational and entertaining</li>
+          <li>✓ Various difficulty levels</li>
+          <li>✓ Perfect for teachers & parents</li>
+          <li>✓ Customizable options</li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="cta-box">
+      <h3>Ready to Explore?</h3>
+      <p>Visit our Etsy store to see our full collection and start downloading today!</p>
+      <a href="{{ site.etsy_store }}" target="_blank" class="btn btn-primary">Visit Etsy Store</a>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="about-section">
+  <div class="container">
+    <h2 class="section-title">About ArtifyCreativeHub</h2>
+    <div class="about-content">
+      <div class="about-text">
+        <p>Welcome to ArtifyCreativeHub, your destination for premium digital creative products! We specialize in creating high-quality coloring books, KDP bundles, and activity books that inspire creativity and bring joy to people of all ages.</p>
+        
+        <p>Our mission is to provide creators, educators, and enthusiasts with professionally designed digital products that are ready to use, easy to access, and crafted with attention to detail.</p>
+        
+        <h3>Why Choose Us?</h3>
+        <ul class="benefits-list">
+          <li>🎯 <strong>Quality First:</strong> Every product is carefully designed and tested</li>
+          <li>⚡ <strong>Instant Access:</strong> Digital downloads available immediately after purchase</li>
+          <li>💼 <strong>Commercial Licenses:</strong> Many products include commercial use rights</li>
+          <li>🎨 <strong>Diverse Styles:</strong> Wide variety of themes, styles, and difficulty levels</li>
+          <li>💯 <strong>Customer Support:</strong> We're here to help with any questions</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="features-section">
+  <div class="container">
+    <h2 class="section-title">What Makes Us Special</h2>
+    <div class="features-grid">
+      <div class="feature-item">
+        <div class="feature-icon">⚡</div>
+        <h3>Instant Download</h3>
+        <p>Get your products immediately after purchase. No waiting, no shipping fees.</p>
+      </div>
+      <div class="feature-item">
+        <div class="feature-icon">🖨️</div>
+        <h3>Print Ready</h3>
+        <p>High-resolution files optimized for printing at home or professionally.</p>
+      </div>
+      <div class="feature-item">
+        <div class="feature-icon">🎁</div>
+        <h3>Bundle Deals</h3>
+        <p>Save more with our value-packed bundles and collections.</p>
+      </div>
+      <div class="feature-item">
+        <div class="feature-icon">🔄</div>
+        <h3>Regular Updates</h3>
+        <p>New designs and products added regularly to keep your collection fresh.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-section">
+  <div class="container">
+    <div class="cta-content">
+      <h2>Start Creating Today!</h2>
+      <p>Browse our collection of premium digital products on Etsy</p>
+      <a href="{{ site.etsy_store }}" target="_blank" class="btn btn-primary btn-large">Shop Now on Etsy</a>
+    </div>
+  </div>
+</section>
